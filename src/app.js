@@ -51,4 +51,7 @@ window.onload = function() {
       domain[domainIndex]
     );
   };
+
+  let dominio = document.getElementById("domain");
+  dominio.innerHTML = generateDomains();
 };
